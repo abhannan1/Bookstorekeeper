@@ -30,7 +30,7 @@ const Book = ({image ,tittle, author, id , getBook, number}) => {
         <img src={image} alt={tittle}/>
         <h2 >{tittle}</h2>
         <h4>{author.toUpperCase()}</h4>
-        <button onClick={()=>getBook(id)} >click me</button>
+        {/* <button onClick={()=>getBook(id)} >click me</button> */}
         {/* <button onClick={handleStyleChange} >{toggleSelect}</button> */}
         <span className="number">{`# ${number + 1}`}</span>
       </article>
